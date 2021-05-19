@@ -20,7 +20,19 @@ page([
                 'background' => 'turquoise',
                 'width' => '180px',
                 'height' => '180px'
-            ],".container"),
+            ],".container",4),
+            sye([
+                'text-align' => 'left',
+                'line-height' => '180px'
+            ],".container1"),
+            sye([
+                'text-align' => 'center',
+                'line-height' => '180px'
+            ],".container2"),
+            sye([
+                'text-align' => 'right',
+                'line-height' => '180px'
+            ],".container3"),
             sye([
                 'width' => '60px',
                 'height' => '60px',
@@ -41,31 +53,49 @@ page([
                 'lightcyan'
             ],".element",10,true),
             sye([
-                'margin' => '0'
+                'display' => 'inline-block',
+                'line-height' => '45px',
+                'vertical-align' => 'top'
             ],".element1"),
             sye([
-                'margin' => '60px 0'
+                'display' => 'inline-block',
+                'line-height' => '20px',
+                'vertical-align' => 'middle'
             ],".element2"),
             sye([
-                'margin' => '120px 0'
+                'display' => 'inline-block',
+                'line-height' => '20px',
+                'vertical-align' => 'bottom'
             ],".element3"),
             sye([
-                'margin' => '0 auto'
+                'display' => 'inline-block',
+                'line-height' => '20px',
+                'vertical-align' => 'top'
             ],".element4"),
             sye([
-                'margin' => '60px auto'
+                'display' => 'inline-block',
+                'line-height' => '20px',
+                'vertical-align' => 'middle'
             ],".element5"),
             sye([
-                'margin' => '120px auto'
+                'display' => 'inline-block',
+                'line-height' => '20px',
+                'vertical-align' => 'bottom'
             ],".element6"),
             sye([
-                'margin' => '0 0 0 auto'
+                'display' => 'inline-block',
+                'line-height' => '20px',
+                'vertical-align' => 'top'
             ],".element7"),
             sye([
-                'margin' => '60px 0 0 auto'
+                'display' => 'inline-block',
+                'line-height' => '20px',
+                'vertical-align' => 'middle'
             ],".element8"),
             sye([
-                'margin' => '120px 0 0 auto'
+                'display' => 'inline-block',
+                'line-height' => '20px',
+                'vertical-align' => 'bottom'
             ],".element9")
         ])
     ],
@@ -74,31 +104,31 @@ page([
             _div([
                 'class' => 'wrapper'
             ],[
-                _div(['class' => 'container'],[
+                _div(['class' => 'container1'],[
                     div("top left",['class' => 'element1'])
                 ]),
-                _div(['class' => 'container'],[
+                _div(['class' => 'container1'],[
                     div("center left",['class' => 'element2'])
                 ]),
-                _div(['class' => 'container'],[
+                _div(['class' => 'container1'],[
                     div("bottom left",['class' => 'element3'])
                 ]),
-                _div(['class' => 'container'],[
+                _div(['class' => 'container2'],[
                     div("top center",['class' => 'element4'])
                 ]),
-                _div(['class' => 'container'],[
+                _div(['class' => 'container2'],[
                     div("center center",['class' => 'element5'])
                 ]),
-                _div(['class' => 'container'],[
+                _div(['class' => 'container2'],[
                     div("bottom center",['class' => 'element6'])
                 ]),
-                _div(['class' => 'container'],[
+                _div(['class' => 'container3'],[
                     div("top right",['class' => 'element7'])
                 ]),
-                _div(['class' => 'container'],[
+                _div(['class' => 'container3'],[
                     div("center right",['class' => 'element8'])
                 ]),
-                _div(['class' => 'container'],[
+                _div(['class' => 'container3'],[
                     div("bottom right",['class' => 'element9'])
                 ]),
             ])
