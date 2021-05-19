@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rgg7888/cssExt.git",
-                "reference": "a4191bbb77b8a2ed9fa923d467788ae3725dfe26"
+                "reference": "204e35ae7dfe70d7c6069bb39517ede6d02055eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rgg7888/cssExt/zipball/a4191bbb77b8a2ed9fa923d467788ae3725dfe26",
-                "reference": "a4191bbb77b8a2ed9fa923d467788ae3725dfe26",
+                "url": "https://api.github.com/repos/rgg7888/cssExt/zipball/204e35ae7dfe70d7c6069bb39517ede6d02055eb",
+                "reference": "204e35ae7dfe70d7c6069bb39517ede6d02055eb",
                 "shasum": ""
             },
             "require": {
@@ -52,7 +52,7 @@
                 "issues": "https://github.com/rgg7888/cssExt/issues",
                 "source": "https://github.com/rgg7888/cssExt/tree/main"
             },
-            "time": "2021-05-18T23:12:36+00:00"
+            "time": "2021-05-18T23:40:49+00:00"
         },
         {
             "name": "ramiro/html-mirror-tags",
