@@ -39,7 +39,34 @@ page([
                 'lightcyan',
                 'lightcyan',
                 'lightcyan'
-            ],".element",10,true)
+            ],".element",10,true),
+            sye([
+                'margin' => '0'
+            ],".element1"),
+            sye([
+                'margin' => '60px 0'
+            ],".element2"),
+            sye([
+                'margin' => '120px 0'
+            ],".element3"),
+            sye([
+                'margin' => '0 auto'
+            ],".element4"),
+            sye([
+                'margin' => '60px auto'
+            ],".element5"),
+            sye([
+                'margin' => '120px auto'
+            ],".element6"),
+            sye([
+                'margin' => '0 0 0 auto'
+            ],".element7"),
+            sye([
+                'margin' => '60px 0 0 auto'
+            ],".element8"),
+            sye([
+                'margin' => '120px 0 0 auto'
+            ],".element9")
         ])
     ],
     'body' => [
